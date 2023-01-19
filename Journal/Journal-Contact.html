@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Contact Us</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../Style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    
+   <header class="blog-header py-3">
+    <div class="row">
+      <div class="col-12 pt-1">
+        <a href="index.html">
+          <img class="w-100 vw-100" src="../images/banner-street100.png" alt="Banner"></a>
+      </div>
+      <nav class="nav justify-content-center bg-dark"> 
+          <a class="nav-link headerbar col-md-2 col-12" href="../index.html">Home</a> 
+          <a class="nav-link headerbar col-md-2 col-12" href="Journal-Home.html">Browse Journals</a>
+          <a class="nav-link headerbar col-md-2 col-12" href="Journal-Submissions.html">Submissions</a> 
+          <a class="nav-link headerbar col-md-2 col-12" href="Journal-Rules.html">General Rules</a> 
+          <a class="nav-link headerbar col-md-2 col-12" href="Journal-Contact.html">Contact Us</a>  
+      </nav> 
+    </div>
+  </header>
+
+
+<main class="container">
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+        <!--Grid column-->
+        <div class="row text-center">
+          <section class="col-md-4 col-sm-12 my-4">
+            <img class="col-6 col-md-4" src="../images/geo.svg" alt="Address" height="40" width="40"></img><br>50, Jalan Murni 18, <br>Taman Malim Jaya, 75250 Melaka
+          </section>
+          <section class="col-md-4 col-sm-12 my-4">
+            <img class="col-6 col-md-4" src="../images/telephone.svg" alt="Phone" height="40" width="40"></img><br>+6 0162843070
+          </section>
+          <section class="col-md-4 col-sm-12 my-4">
+            <img class="col-6 col-md-4" src="../images/envelope.svg" alt="Email" height="40" width="40"></img><br>l.wd3260@gmail.com
+          </section>
+            
+        </div>
+
+        <br>
+        <!--Grid column-->
+        <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">      
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control">                          
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <br>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+</main><!-- /.container -->
+
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <small class="d-block mb-3 text-muted"></small>
+      </div>
+      <div class="col-4 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Cool stuff</a></li>
+          <li><a class="link-secondary" href="#">Random feature</a></li>
+          <li><a class="link-secondary" href="#">Team feature</a></li>
+          <li><a class="link-secondary" href="#">Another one</a></li>
+          <li><a class="link-secondary" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-4 col-md">
+        <h5>Action</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Submit</a></li>
+          <li><a class="link-secondary" href="#">Download</a></li>
+          <li><a class="link-secondary" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-4 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">About Us</a></li>
+          <li><a class="link-secondary" href="#">Locations</a></li>
+          <li><a class="link-secondary" href="#">Privacy Policy</a></li>
+          <li><a class="link-secondary" href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+    
+  </body>
+</html>

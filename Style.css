@@ -175,7 +175,7 @@ h2 {
 /*Images*/
 
 .image-management {
-   content:url(images/management.jpg);
+   content:url(images/Management.jpg);
    width:200px; 
    height:200px;
 }
@@ -221,3 +221,6 @@ h2 {
    width:255px; 
    height:330px;
 }
+
+<img class="w-100 vw-100 img-fluid" src="../images/Banner-street100.png" alt="Banner"></a>
+<img class="w-100 vw-100 img-fluid" src="../images/Banner-street100.png" alt="Banner"></a>
